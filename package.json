@@ -1,0 +1,23 @@
+{
+  "name": "news-app-rest-api",
+  "version": "1.0.0",
+  "description": "news api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon transpiled/index.js"
+  },
+  "author": "felix jr lazarte",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.2"
+  }
+}
